@@ -1,5 +1,6 @@
 :root {
-    --font-family: "Open Sans", sans-serif;
+    --fontFamily: "Open Sans", sans-serif;
+    --principalBackgroundColor: #F7FAFD;
 }
 
 
@@ -12,6 +13,6 @@
 }
 
 body{
-    background-color: #F7FAFD;
-    font-family: var(--font-family);
+    background-color: var(--principalBackgroundColor);
+    font-family: var(--fontFamily);
 }
