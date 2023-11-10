@@ -2,5 +2,11 @@
 
 nav {
     position: sticky;
-    
+    background-color: var(--principalBackgroundColor);
+
+}
+
+logo {
+
+    justify-content: left;
 }
