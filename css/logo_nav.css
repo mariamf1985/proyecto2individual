@@ -1,12 +1,23 @@
 @import url("./styles.css");
 
 nav {
-    position: sticky;
-    background-color: var(--principalBackgroundColor);
+
+  position: sticky;
+  
+  display: flex;
+  
 
 }
 
-logo {
+#logo {
+    background-color: pink;
+    width: 15%;
+    
+}
 
-    justify-content: left;
+#navBar {
+
+    background-color: rgb(72, 187, 49);
+    
+
 }
