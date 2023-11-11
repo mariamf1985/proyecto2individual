@@ -1,2 +1,16 @@
 @import url(./styles.css);
 
+#geometricShapesImages {
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#headerGreenDiamond {
+    width: 1.5%;
+}
+
+#headerYellowCircle{
+    width: 3%;
+}
