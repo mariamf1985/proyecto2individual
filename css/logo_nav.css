@@ -21,7 +21,7 @@ nav {
 }
 
 #navBar li a {
-  color: black;
+  color: #333333;
 }
 
 #navBar li a:hover {
@@ -50,7 +50,7 @@ nav {
   padding-right: 30%;
   z-index: 3;
   font-family: var(--fontFamily);
-  
+  color: #ff556e;
 }
 
 #navBarDownloadButton a{
