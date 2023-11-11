@@ -1,6 +1,10 @@
 :root {
     --fontFamily: "Open Sans", sans-serif;
     --principalBackgroundColor: #F7FAFD;
+    --principalLeetterColor:#333333;
+    --secondaryLetterColor:#777777;
+    --tertiary-letter-color:#FF556E;
+    --quartery-letter-color:#8E8E8E;
 }
 
 

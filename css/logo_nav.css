@@ -17,7 +17,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  
+}
+
+#navBar li a {
+  color: black;
+}
+
+#navBar li a:hover {
+  color: #ff556e;
 }
 
 .dropDownButton {
@@ -29,5 +36,27 @@ nav {
   color: #333333;
 }
 
+.dropDownButton:hover {
+  color: #ff556e;
+}
 
+#navBarDownloadButton {
+  background-color: inherit;
+  border-radius: 50px;
+  border: 2px solid #ff556e;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
+  z-index: 3;
+  font-family: var(--fontFamily);
+  
+}
 
+#navBarDownloadButton a{
+
+  font-weight: bold ;
+  font-size: 15px;
+  color: #ff556e;
+
+}
