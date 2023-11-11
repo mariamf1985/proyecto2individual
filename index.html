@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
     <link rel="stylesheet" type="text/css" href="./css/logo_nav.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
@@ -11,48 +11,86 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      crossorigin="anonymous"
+    />
 
     <title>Sync</title>
   </head>
   <body>
     <nav>
-      <img id="logo" src="./src/assets/images/logo.svg" alt="Logo de Sync" />
-      
-        <ul id="navBar">
-          <li><a href="#">DESCRIPTION</a></li>
-          <li><a href="#">FEATURES</a></li>
-          <li><a href="#">SCREENS</a></li>
-          <li><button class="dropDownButton">EXTRA<i class="fa fa-caret-down"></i></button>
-          </li>
-          <li><button class="downloadButton" id="navBarDownloadButton"><a target="_blank" href="https://factoriaf5.org/">DOWNLOAD</a></button></li>
-        </ul>
-      </nav>
+      <img id="logo" src="./src/assets/images/logo.svg" alt="Sync logo" />
+
+      <ul id="navBar">
+        <li><a href="#" alt="description">DESCRIPTION</a></li>
+        <li><a href="#" alt="features">FEATURES</a></li>
+        <li><a href="#" alt="screens">SCREENS</a></li>
+        <li>
+          <button class="dropDownButton" alt="extra drop down button">
+            EXTRA<i class="fa fa-caret-down"></i>
+          </button>
+        </li>
+        <li>
+          <button class="downloadButton" id="navBarDownloadButton">
+            <a target="_blank" href="https://factoriaf5.org/" alt="download button">DOWNLOAD</a>
+          </button>
+        </li>
+      </ul>
+    </nav>
     <header>
-            <img src="./src/assets/images/decorative-green-diamond.svg" alt="rombo verde decorativo">
-            <img src="./src/assets/images/decorative-yellow-circle.svg" alt="círculo amarillo decorativo">
+      <div id="geometricShapesImages">
+        <img id="headerGreenDiamond"
+          src="./src/assets/images/decorative-green-diamond.svg"
+          alt="decorative green diamond"
+        />
+        <img id="headerYellowCircle"
+          src="./src/assets/images/decorative-yellow-circle.svg"
+          alt="decorative yellow circle"
+        />
+      </div>
+      <article>
+        <h1>Mobile App Landing Page</h1>
+        <p>
+          Start focusing on your goals and get more things done with Sync mobile
+          application. It's the first app to harness the power of social
+          connections to help you stay focused and get organized
+        </p>
+      </article>
 
-            <article>
-            <h1>Mobile App Landing Page</h1>
-            <p>Start focusing on your goals and get more things done with Sync mobile application. It's 
-                the first app to harness the power of social connections to help you stay focused and get 
-                organized</p>
-            </article>
+      <div id="buttonsDownload">
+        <button class="downloadButton" id="appleDownload">
+          <a target="_blank" href="https://factoriaf5.org/"
+            ><i class="fab fa-apple"></i>DOWNLOAD</a
+          >
+        </button>
+        <button class="downloadButton" id="googlePlayDownload">
+          <a target="_blank" href="https://factoriaf5.org/"
+            ><i class="fab fa-google-play"></i>DOWNLOAD</a
+          >
+        </button>
+      </div>
 
-        <div id="buttonsDownload">
-            <button class="downloadButton" id="appleDownload"><a target="_blank" href="https://factoriaf5.org/"><i class="fab fa-apple"></i>DOWNLOAD</a></button>
-            <button class="downloadButton" id="googlePlayDownload"><a target="_blank" href="https://factoriaf5.org/"><i class="fab fa-google-play"></i>DOWNLOAD</a></button>
-        </div>
-
-        <img src="./src/assets/images/decorative-blue-circle.svg" alt="círculo azul decorativo">
+      <img
+        src="./src/assets/images/decorative-blue-circle.svg"
+        alt="círculo azul decorativo"
+      />
     </header>
     <main>
-        <section class="principal">
-            <img src="./src/assets/images/header-iphone.png" alt="Imagen de un teléfono móvil">
-            <div class="icons">
-                <p>Identity Goals</p> <p>Situation Analysis</p> <p>Tasks Settings</p> <p>Social Interaction</p> <p>Get Things Done</p>
-            </div>
-    </section>
+      <section class="principal">
+        <img
+          src="./src/assets/images/header-iphone.png"
+          alt="Imagen de un teléfono móvil"
+        />
+        <div class="icons">
+          <p>Identity Goals</p>
+          <p>Situation Analysis</p>
+          <p>Tasks Settings</p>
+          <p>Social Interaction</p>
+          <p>Get Things Done</p>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
