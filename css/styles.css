@@ -1,32 +1,37 @@
 :root {
-    --fontFamily: "Open Sans", sans-serif;
-    --principalBackgroundColor: #F7FAFD;
-    --principalLeetterColor:#333333;
-    --secondaryLetterColor:#777777;
-    --tertiary-letter-color:#FF556E;
-    --quartery-letter-color:#8E8E8E;
+  --fontFamily: "Open Sans", sans-serif;
+  --principalBackgroundColor: #f7fafd;
+  --principalLeetterColor: #333333;
+  --secondaryLetterColor: #777777;
+  --tertiary-letter-color: #ff556e;
+  --quartery-letter-color: #8e8e8e;
 }
 
-
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
-body{
-    margin-top: 3%;
-    padding-left: 7%;
-    padding-right: 7%;
-    justify-content: center;
-    font-family: var(--fontFamily);
-
+body {
+  margin-top: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+  justify-content: center;
+  font-family: var(--fontFamily);
 }
 
 .downloadButton {
-    border-radius: 50px;
+  border-radius: 50px;
+  background-color: #ff556e;
+  border-color: #ff556e;
+  color: white;
+  font-family: var(--fontFamily);
+  font-weight: bold;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
-
-
