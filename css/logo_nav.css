@@ -16,5 +16,18 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(72, 187, 49);
+  font-weight: bold;
+  
 }
+
+.dropDownButton {
+  padding: 14;
+  background-color: inherit;
+  border: none;
+  font-weight: bold;
+  font-size: 98%;
+  color: #333333;
+}
+
+
+
