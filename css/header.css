@@ -15,33 +15,43 @@
   padding-left: 1%;
 }
 
-article{
-padding-top: 2%;
+article {
+  padding-top: 2%;
 }
 
 h1 {
-    text-align: center;
-    font-family: var(--fontFamily);
-    font-size: 70px;
-    font-weight: bolder;
-    color: #333333;
-    padding-bottom: 1.5%;
+  text-align: center;
+  font-family: var(--fontFamily);
+  font-size: 70px;
+  font-weight: bolder;
+  color: #333333;
+  padding-bottom: 1.5%;
 }
 
-p{
-    text-align: center;
-    font-family: var(--fontFamily);
-    color: #777777;
-    margin-left: 14%;
-    margin-right: 14%;
+p {
+  text-align: center;
+  font-family: var(--fontFamily);
+  color: #777777;
+  margin-left: 14%;
+  margin-right: 14%;
 }
 
-#buttonsDownload {background-color: aqua;
-    display: flex;
-    justify-content: center;
+#headerDownloadButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-left: 8.5%;
+  margin-right: 8.5%;
 }
 
+#appleDownload {
+  margin-right: 0.5%;
+}
+
+#googlePlayDownload {
+  margin-left: 0.5%;
+}
 
 #decorativeBlueCircle {
-    width: 8%;
+  width: 8%;
 }
