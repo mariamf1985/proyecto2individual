@@ -13,8 +13,9 @@
 }
 
 body{
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
     justify-content: center;
     font-family: var(--fontFamily);
 }

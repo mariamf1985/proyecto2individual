@@ -1,23 +1,19 @@
 @import url("./styles.css");
 
 nav {
-
   position: sticky;
-  
   display: flex;
-  
-
+  justify-content: space-between;
 }
 
 #logo {
-    background-color: pink;
-    width: 15%;
-    
+  background-color: pink;
+  width: 15%;
 }
 
 #navBar {
-
-    background-color: rgb(72, 187, 49);
-    
-
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(72, 187, 49);
 }
+
