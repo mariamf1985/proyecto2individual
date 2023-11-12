@@ -36,12 +36,18 @@ p {
   margin-right: 14%;
 }
 
+#decorativeBlueCircle {
+    width: 8%;
+  }
+
 #headerDownloadButtons {
+width: 70%;
+float: right;
   display: flex;
   justify-content: center;
   margin-top: 2%;
-  margin-left: 8.5%;
-  margin-right: 8.5%;
+  margin-right: 16%;
+  padding-bottom: 5%;
 }
 
 #appleDownload {
@@ -52,6 +58,7 @@ p {
   margin-left: 0.5%;
 }
 
-#decorativeBlueCircle {
-  width: 8%;
+
+#headerIphoneImage {
+    width: 100%;
 }
