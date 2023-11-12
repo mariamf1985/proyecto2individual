@@ -58,7 +58,31 @@ float: right;
   margin-left: 0.5%;
 }
 
-
 #headerIphoneImage {
     width: 100%;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+
+.boxIcons {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  
+}
+
+.boxIcons img {
+  width: 120px;
+}
+
+figcaption {
+  font-family: var(--fontFamily);
+  font-weight: bold;
+  color: #333333;
+  margin-top: 15%;
 }
