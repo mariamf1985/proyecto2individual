@@ -1,9 +1,13 @@
 @import url("./styles.css");
 
 nav {
+  position: -webkit-sticky;
   position: sticky;
+  top: 0;
+  z-index: 3;
   display: flex;
   justify-content: space-between;
+  
 }
 
 #logo {
