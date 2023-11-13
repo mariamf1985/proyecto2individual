@@ -1,2 +1,50 @@
 @import url(./styles.css);
 
+.descriptionArticle {
+  display: flex;
+}
+
+.descriptionArticleImage {
+  width: 50%;
+}
+
+.descriptionArticleCard {
+  display: flex;
+  flex-direction: column;
+}
+.descriptionArticleTitle {
+  color: #333333;
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+
+.descriptionArticleParagraph {
+  font-family: var(--fontFamily);
+  color: #777777;
+  text-align: left;
+  margin-left: 0;
+  font-size: 18px;
+  margin-bottom: 5%;
+  line-height: 200%;
+}
+
+.descriptionArticleList {
+  font-family: var(--fontFamily);
+  color: #777777;
+  font-size: 18px;
+  line-height: 250%;
+  margin-left: 3.5%;
+}
+
+.descriptionArticleButton {
+  border-radius: 50px;
+  background-color: #ff556e;
+  border: none;
+  color: white;
+  font-family: var(--fontFamily);
+  font-weight: bold;
+
+  width: 25%;
+  height: 6%;
+  margin-top: 5%;
+}
