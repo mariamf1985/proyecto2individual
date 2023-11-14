@@ -20,6 +20,10 @@
       href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/99a190bc20.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Sync</title>
   </head>
@@ -160,16 +164,29 @@
             <button class="descriptionArticleButton">LIGHTBOX</button>
           </div>
         </article>
-        <article class="descriptionArticle">
+        <article class="descriptionArticle" style="background-color: #e8eff6;">
           <div class="descriptionArticleCard">
             <div class="descriptionArticleMenu">
-              <button class="descriptionArticleMenuButton">Schedule</button>
-              <button class="descriptionArticleMenuButton">Tracking</button>
-              <button class="descriptionArticleMenuButton">Organice</button>
+              <button class="descriptionArticleMenuButton" style="color: #f7fafd; background-color: #9a67e7;">
+                <i class="fa-regular fa-clock" style="color: #f7fafd"></i
+                >Schedule
+              </button>
+              <button class="descriptionArticleMenuButton">
+                <i class="fa-solid fa-list" style="color: #777777"></i>Tracking
+              </button>
+              <button class="descriptionArticleMenuButton">
+                <i
+                  class="fa fa-calendar-alt"
+                  aria-hidden="true"
+                  style="color: #777777"
+                ></i
+                >Organice
+              </button>
             </div>
             <p class="descriptionArticleParagraph">
-              <strong>Schedule tasks</strong> to keep track of their completion. Sync provides
-              multiple scheduling options including alarms and reminders.
+              <strong>Schedule tasks</strong> to keep track of their completion.
+              Sync provides multiple scheduling options including alarms and
+              reminders.
             </p>
             <ul class="descriptionArticleList" type="square">
               <li>
@@ -185,9 +202,16 @@
                 reduce stress and make you more productive
               </li>
             </ul>
-            <button class="descriptionArticleButton">TERMS</button>
-            <button class="descriptionArticleButton" id="descriptionArticlePrivacyButton">PRIVACY</button>
+            <div class="descriptionArticleButtonBox">
+            <button class="descriptionArticleButton" id="descriptionArticleButtonTerms">TERMS</button>
+            <button
+              class="descriptionArticleButton"
+              id="descriptionArticlePrivacyButton"
+            >
+              PRIVACY
+            </button>
           </div>
+        </div>
           <img
             class="descriptionArticleImage"
             src="./src/assets/images/description-2-app.png"

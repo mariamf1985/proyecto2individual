@@ -2,6 +2,8 @@
 
 .descriptionArticle {
   display: flex;
+  flex-direction: row;
+  padding: 10% 5%;
 }
 
 .descriptionArticleImage {
@@ -11,11 +13,20 @@
 .descriptionArticleCard {
   display: flex;
   flex-direction: column;
+  
 }
 .descriptionArticleTitle {
   color: #333333;
   font-size: 50px;
   margin-bottom: 5%;
+}
+
+.descriptionArticleMenuButton {
+  font-family: var(--fontFamily);
+  color: #777777;
+  font-weight: bold;
+  width: 35%;
+  height: 100%;
 }
 
 .descriptionArticleParagraph {
@@ -45,6 +56,55 @@
   font-weight: bold;
 
   width: 25%;
-  height: 6%;
+  height: 40%;
   margin-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
+
+.descriptionArticleButtonBox {
+  display: flex;
+  height: 25%;
+}
+
+
+.descriptionArticleButtonTerms {
+  
+  
+}
+
+/*.button-color:hover {
+    animation: brillo .25s normal ;
+}
+@keyframes brillo {
+    0%{
+        background: linear-gradient(
+            -225deg,
+            #f8f6fc 29%,
+            var(--tertiary-letter-color) 0%,
+            #f8f6fc 19%,
+            var(--tertiary-letter-color) 67%);
+    }
+    25%{
+        background: linear-gradient(
+        -225deg,
+        var(--tertiary-letter-color) 10%,
+        #f8f6fc 49%,
+        var(--tertiary-letter-color) 20%,
+        #f8f6fc 39%,
+        var(--tertiary-letter-color) 67%);
+    }
+    50%{
+        background: linear-gradient(
+            -225deg,
+            var(--tertiary-letter-color) 40%,
+            #f8f6fc 100%);
+    }
+    100%{
+        background: linear-gradient(
+            -225deg,
+            var(--tertiary-letter-color) 60%,
+            #f8f6fc 100%);
+    }
+
+}*/
