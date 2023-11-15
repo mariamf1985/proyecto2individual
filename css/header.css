@@ -37,17 +37,21 @@ p {
 }
 
 #decorativeBlueCircle {
-    width: 8%;
-  }
+  width: 8%;
+}
 
 #headerDownloadButtons {
-width: 70%;
-float: right;
+  width: 70%;
+  float: right;
   display: flex;
   justify-content: center;
   margin-top: 2%;
   margin-right: 16%;
   padding-bottom: 5%;
+}
+
+#headerDownloadButtons a {
+  color: white;
 }
 
 #appleDownload {
@@ -59,7 +63,7 @@ float: right;
 }
 
 #headerIphoneImage {
-    width: 100%;
+  width: 100%;
 }
 
 .icons {
@@ -73,7 +77,6 @@ float: right;
   display: flex;
   flex-direction: column;
   align-content: space-around;
-  
 }
 
 .boxIcons img {

@@ -36,3 +36,43 @@ body {
   width: 20%;
   height: 15%;
 }
+
+.downloadButton:hover {
+  animation: brillo 0.25s normal linear;
+}
+
+@keyframes brillo {
+  0% {
+    background: linear-gradient(
+      -225deg,
+      #f8f6fc 29%,
+      #ff556e 0%,
+      #f8f6fc 19%,
+      #ff556e 67%
+    );
+  }
+  25% {
+    background: linear-gradient(
+      -225deg,
+      #ff556e 10%,
+      #f8f6fc 49%,
+      #ff556e 20%,
+      #f8f6fc 39%,
+      #ff556e 67%
+    );
+  }
+  50% {
+    background: linear-gradient(
+      -225deg,
+      #ff556e 40%,
+      #f8f6fc 100%
+    );
+  }
+  100% {
+    background: linear-gradient(
+      -225deg,
+      #ff556e 60%,
+      #f8f6fc 100%
+    );
+  }
+}

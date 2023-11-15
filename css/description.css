@@ -13,7 +13,6 @@
 .descriptionArticleCard {
   display: flex;
   flex-direction: column;
-  
 }
 .descriptionArticleTitle {
   color: #333333;
@@ -22,7 +21,7 @@
 }
 
 .descriptionArticleMenu {
-padding-bottom: 10%;
+  padding-bottom: 10%;
 }
 
 .descriptionArticleMenuButton {
@@ -67,6 +66,46 @@ padding-bottom: 10%;
   padding-bottom: 2%;
 }
 
+.descriptionArticleButton:hover {
+  animation: brillo 0.25s normal linear;
+}
+
+@keyframes brillo {
+  0% {
+    background: linear-gradient(
+      -225deg,
+      #f8f6fc 29%,
+      #ff556e 0%,
+      #f8f6fc 19%,
+      #ff556e 67%
+    );
+  }
+  25% {
+    background: linear-gradient(
+      -225deg,
+      #ff556e 10%,
+      #f8f6fc 49%,
+      #ff556e 20%,
+      #f8f6fc 39%,
+      #ff556e 67%
+    );
+  }
+  50% {
+    background: linear-gradient(
+      -225deg,
+      #ff556e 40%,
+      #f8f6fc 100%
+    );
+  }
+  100% {
+    background: linear-gradient(
+      -225deg,
+      #ff556e 60%,
+      #f8f6fc 100%
+    );
+  }
+}
+
 .descriptionArticleButtonBox {
   display: flex;
   height: 40%;
@@ -81,38 +120,3 @@ padding-bottom: 10%;
   padding-bottom: 6%;
 }
 
-/*.button-color:hover {
-    animation: brillo .25s normal ;
-}
-@keyframes brillo {
-    0%{
-        background: linear-gradient(
-            -225deg,
-            #f8f6fc 29%,
-            var(--tertiary-letter-color) 0%,
-            #f8f6fc 19%,
-            var(--tertiary-letter-color) 67%);
-    }
-    25%{
-        background: linear-gradient(
-        -225deg,
-        var(--tertiary-letter-color) 10%,
-        #f8f6fc 49%,
-        var(--tertiary-letter-color) 20%,
-        #f8f6fc 39%,
-        var(--tertiary-letter-color) 67%);
-    }
-    50%{
-        background: linear-gradient(
-            -225deg,
-            var(--tertiary-letter-color) 40%,
-            #f8f6fc 100%);
-    }
-    100%{
-        background: linear-gradient(
-            -225deg,
-            var(--tertiary-letter-color) 60%,
-            #f8f6fc 100%);
-    }
-
-}*/
