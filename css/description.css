@@ -91,18 +91,10 @@
     );
   }
   50% {
-    background: linear-gradient(
-      -225deg,
-      #ff556e 40%,
-      #f8f6fc 100%
-    );
+    background: linear-gradient(-225deg, #ff556e 40%, #f8f6fc 100%);
   }
   100% {
-    background: linear-gradient(
-      -225deg,
-      #ff556e 60%,
-      #f8f6fc 100%
-    );
+    background: linear-gradient(-225deg, #ff556e 60%, #f8f6fc 100%);
   }
 }
 
@@ -120,3 +112,50 @@
   padding-bottom: 6%;
 }
 
+@media only screen and (max-width: 768px) {
+  .descriptionArticle {
+    display: flex;
+    flex-direction: column;
+    padding: 10% 5%;
+  }
+
+  .descriptionArticleImage {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .descriptionArticleMenu {
+    padding-bottom: 10%;
+  }
+
+  .descriptionArticleMenuButton {
+    font-size: 22px;
+    width: 35%;
+    height: 55%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .descriptionArticleParagraph {
+    font-size: 30px;
+  }
+
+  .descriptionArticleList {
+    font-size: 30px;
+  }
+
+  #descriptionArticleButtonPrivacy {
+    font-size: 22px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 10%;
+  }
+  #descriptionArticleButtonTerms {
+    font-size: 22px;
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+
+}
