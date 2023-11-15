@@ -67,10 +67,10 @@
 }
 
 .descriptionArticleButton:hover {
-  animation: brillo 0.25s normal linear;
+  animation: bright 0.25s normal linear;
 }
 
-@keyframes brillo {
+@keyframes bright {
   0% {
     background: linear-gradient(
       -225deg,
